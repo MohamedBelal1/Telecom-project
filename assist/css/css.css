@@ -1,12 +1,9 @@
 .masthead {
-    background-image: url('https://img.freepik.com/premium-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-52571.jpg');
-    background-attachment: fixed;
+    height: 950px;
+    background-position: center center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    min-height: 100vh;
-    position: relative;
-    color: white;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
 }
 
 .nav-item a {
@@ -62,12 +59,12 @@ p {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #353535; 
+    background: #349fd8; 
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-    background: #000000; 
+    background: #2763b8; 
 }
 
 .main {
@@ -80,6 +77,8 @@ p {
 @media (max-width:768) {
     .masthead {
         min-height: 50vh;
+        background-position: center;
+        background-size: contain;
     }
     h1 {
         font-size: calc(24.4px + 3.3vw);
